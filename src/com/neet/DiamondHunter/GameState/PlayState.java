@@ -5,17 +5,14 @@
 
 package com.neet.DiamondHunter.GameState;
 
-import java.awt.Graphics2D;
+import java.awt.Graphics2D; 
 import java.awt.Rectangle;
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Scanner;
+
 
 import com.neet.DiamondHunter.Entity.Diamond;
 import com.neet.DiamondHunter.Entity.Item;
@@ -195,7 +192,7 @@ public class PlayState extends GameState {
 		try{
 			
 			InputStream f = getClass().getResourceAsStream("/Maps/axelocation.map");
-			BufferedReader fr = new BufferedReader(
+			BufferedReader br = new BufferedReader(
 					new InputStreamReader(f)
 				);
 			

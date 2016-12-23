@@ -31,9 +31,6 @@ public class Controller {
     @FXML
     private Canvas canvas;
     
-    @FXML
-    private Button CloseButton;
-    
     // tile sets
     private Image tileset = new Image("/Tilesets/testtileset.gif");
     
