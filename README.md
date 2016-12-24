@@ -2,7 +2,7 @@
 Course Work 2<br />
 Team Members<br />
 1.Naim Rais 023613<br />
-2.Farhan Adli<br /><br />
+2.Farhan Adli 015388<br /><br />
 Apologies for the delay, no excuses.<br />
 Run the game from the Game class <br />
 Options - Start<br />
