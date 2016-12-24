@@ -108,7 +108,7 @@ public class PlayState extends GameState {
 		hud = new Hud(player, diamonds);
 		
 		// load music
-		JukeBox.load("/Music/Augustana.mp3", "music1");
+		JukeBox.load("/Music/bgmusic.mp3", "music1");
 		JukeBox.setVolume("music1", -10);
 		JukeBox.loop("music1", 1000, 1000, JukeBox.getFrames("music1") - 1000);
 		JukeBox.load("/Music/finish.mp3", "finish");
